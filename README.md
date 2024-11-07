@@ -21,9 +21,10 @@ _____
 
 ### ¿Qué existe que es similar a la propuesta?
 
-https://www.savoirfaire.nyc/?ref=godly Sitio para una agencia de diseño y fotografía. Se destaca la innovación al mostrar el porcentaje de carga y la manera de mostrar las fotos una por una, en vez de un albúm lo que lo hace más atractivo y atrapante, el problema es que no posee una opción alternativa para mostrar todos los trabajos juntos, lo que si se quiere hacer con los collares.
 
-https://www.otm.work/ Sitio portafolio para agencia de diseño. A pesar de no planear usar vídeos en el portafolio, la manera de hacer scroll tipo forzado puede resultar molesto para el usuario. Se destaca como tienen opciones arriba, la que incluye un index con los distintos trabajos, lo que permite utilizar filtros para buscar por el tipo de estilo del accesorio, colores, etc. 
+https://readymag.com/designs/stolenhearts/ Sitio para una tienda de joyas. Al hacer hover se pueden ver detalles de la pieza, lo cual resulta muy útil para el usuario ya que no debe hacer click para ver la información, pero puede resultar molesto o no funcionar para usuario de telefonos, donde es más posible que se vea la página.
+
+https://anochesone.com/ Sitio para un proyecto textil. Se destaca la dirección artistica del sitio. Como el mouse esta personalizado para encajar el tema, al igual que al hacer hover aparecen lazos en las imagenes. También como al inicio incluye una parte interactiva con las prendas. Nuevamente presenta el problema de no funcionar tan óptimo en telefonos.
 
 https://www.ajanwachuku.work/ Buena estructura. La galería de fotos al incio sirve como un sneak peak de lo que se mostrará posteriormente y los gif en los títulos son muy atractivos. Algunos lnks no presentan hover reconocible mientras que otros lo hacen de manera exagerada, pero se nota un criterio detrás.
 
@@ -36,3 +37,5 @@ https://fluks.studio/ Principalmente galería de fotos con buen tamaño. Puede q
 _____
 
 ### ¿Qué existe que puede inspirar la propuesta? 
+![moodboard-frutinez](https://github.com/user-attachments/assets/7413d8dc-88ad-4eb0-bb73-ef363836294f)
+

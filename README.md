@@ -1,25 +1,25 @@
-##Examen_Frutinez
+## Examen_Frutinez
 ____
 
-###¿Para qué es esta propuesta? 
+### ¿Para qué es esta propuesta? 
 Dar a conocer los collares que tiene la tienda frutinez. 
 Frutinez es una tienda de accesorios hechos a mano, con la premisa de ofrecer diseño únicos y de diversos estilos. La página sirviaria de vitrina virtual para mostrar los distintos collares creados.
 
 ___
-###¿Para quiénes es esta propuesta?
+### ¿Para quiénes es esta propuesta?
 
-####Usuario 1 (menos probable)
+#### Usuario 1 (menos probable)
 Carola, 40 años. Trabaja en una empresa administrativa, por lo que por su código de vestimenta no usa accesorios. No posee redes sociales como Instagram o Tiktok, pero si Facebook, por lo que no entiende las tendencias actuales de los jóvenes. Le gustan la joyeria de oro y simple.
 
-####Usuario 2 (más probable)
+#### Usuario 2 (más probable)
 Valentina, 21 años. Es estudiante universitaria, en el área de diseño. Le gusta que su manera de vestir represente su personalidad y destaque del resto, optando por estilo coloridos e inspirados en moda Harajuku. Esta actualizada en las tendencias de TikTok e Instagram. Le encanta combinar múltiples accesorios en el día a día y busca opciones mas accesibles.
 
-####Usuario 3 (promedio)
+#### Usuario 3 (promedio)
 Personas entre los 15-25 años que disfrutan usar accesorios personalizados, ya sea collares, llaveros para el télefono u aros. 
 
 _____
 
-###¿Qué existe que es similar a la propuesta?
+### ¿Qué existe que es similar a la propuesta?
 
 https://www.savoirfaire.nyc/?ref=godly Sitio para una agencia de diseño y fotografía. Se destaca la innovación al mostrar el porcentaje de carga y la manera de mostrar las fotos una por una, en vez de un albúm lo que lo hace más atractivo y atrapante, el problema es que no posee una opción alternativa para mostrar todos los trabajos juntos, lo que si se quiere hacer con los collares.
 
@@ -35,4 +35,4 @@ https://fluks.studio/ Principalmente galería de fotos con buen tamaño. Puede q
 
 _____
 
-###¿Qué existe que puede inspirar la propuesta? 
+### ¿Qué existe que puede inspirar la propuesta? 

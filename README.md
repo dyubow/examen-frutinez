@@ -1,28 +1,30 @@
-## Examen_Frutinez
+## Examen_Portafolio
 ____
 
 ### ¿Para qué es esta propuesta? 
-Dar a conocer los collares que tiene la tienda frutinez. 
-Frutinez es una tienda de accesorios hechos a mano, con la premisa de ofrecer diseño únicos y de diversos estilos. La página sirviaria de vitrina virtual para mostrar los distintos collares creados.
+Dar a conocer trabajos de diseño realizados a lo largo de la carrera de Diseño, como proyectos personales, de manera más dinámica que solo un PDF.
 
 ___
 ### ¿Para quiénes es esta propuesta?
 
 #### Usuario 1 (menos probable)
-Carola, 40 años. Trabaja en una empresa administrativa, por lo que por su código de vestimenta no usa accesorios. No posee redes sociales como Instagram o Tiktok, pero si Facebook, por lo que no entiende las tendencias actuales de los jóvenes. Le gustan la joyeria de oro y simple.
+Carola, 40 años. 
+Trabaja en una empresa administrativa como reclutadora. En busca de personas para el área de comunicaciones se encuentra *necesario* reclutar un diseñador. 
+Al no ser su área de experticie, siente mucha *frustración* al no saber donde buscar. Para empezar revisa en Linkedin se encuentra con el link al portafolio.
+Entra al link, puede que no sea de su interés.
 
 #### Usuario 2 (más probable)
-Valentina, 21 años. Es estudiante universitaria, en el área de diseño. Le gusta que su manera de vestir represente su personalidad y destaque del resto, optando por estilo coloridos e inspirados en moda Harajuku. Esta actualizada en las tendencias de TikTok e Instagram. Le encanta combinar múltiples accesorios en el día a día y busca opciones mas accesibles.
+Valeria, 30 años. Es reclutadora de una agencia de diseño. Actualmente han tenido aumentos en la cantidad de encargos por lo que *necesitan* más apoyo. *Frustrada* con su carga laboral busca en linkedin para facilitar el proceso, encontrando el link. Entrando al link puede ser de su interés los trabajos lo que puede generar un contacto. 
+O valeria, sube un anuncio para contratar, donde el sitio es entregado como postulación.
 
 #### Usuario 3 (promedio)
-Personas entre los 15-25 años que disfrutan usar accesorios personalizados, ya sea collares, llaveros para el télefono u aros. 
-
+Valentina, 21 años. Estudiante de diseño, se encuentra *estresada* con sus entregas, *necesita* inspiración y referentes para su trabajo. Entre links encuentra el portafolio, por lo que lo revisa para ver los trabajos como recolectar elementos gráficos.
 _____
 
 ### ¿Qué existe que es similar a la propuesta?
 
 
-https://readymag.com/designs/stolenhearts/ Sitio para una tienda de joyas. Al hacer hover se pueden ver detalles de la pieza, lo cual resulta muy útil para el usuario ya que no debe hacer click para ver la información, pero puede resultar molesto o no funcionar para usuario de telefonos, donde es más posible que se vea la página.
+https://readymag.com/designs/stolenhearts/ Sitio para una tienda de joyas. Al hacer hover se pueden ver detalles detrás de cada imagen, lo cual resulta muy útil para el usuario ya que no debe hacer click para ver la información, pero puede resultar molesto o no funcionar para usuario de telefonos, donde es más posible que se vea la página.
 
 https://anochesone.com/ Sitio para un proyecto textil. Se destaca la dirección artistica del sitio. Como el mouse esta personalizado para encajar el tema, al igual que al hacer hover aparecen lazos en las imagenes. También como al inicio incluye una parte interactiva con las prendas. Nuevamente presenta el problema de no funcionar tan óptimo en telefonos.
 
@@ -30,7 +32,7 @@ https://www.ajanwachuku.work/ Buena estructura. La galería de fotos al incio si
 
 https://www.allta.ie/?ref=onepagelove La animación del inicio resulta muy interesante. La manera de mostrar fotos en carrusel es distinta, y te fuerza a verlas todas, lo cual puede ser molesto, pero ayuda a que el usuario pueda ver todas las imágenes a mostrar.
 
-https://www.weddingtosardinia.it/ Ejemplo más cercano a la idea de galeria/vitrina que se quiere realizar. Es llamativo como las fotos se mueven a un distinto ritmo que el scroll, algunas mostrando vídeos/animaciones, con textos para acompañar. También como se van separando por categoría lo que podría traducirse a estilo de collar.
+https://www.weddingtosardinia.it/  Es llamativo como las fotos se mueven a un distinto ritmo que el scroll, algunas mostrando vídeos/animaciones, con textos para acompañar. También como se van separando por categoría lo que podría traducirse al tipo de diseño del trabajo realizado.
 
 https://fluks.studio/ Principalmente galería de fotos con buen tamaño. Puede que los textos se vean muy macro, aunque es una decisión estilistica. Se destaca como el mouse cambia de forma al hacer hover por las fotos.
 

@@ -43,9 +43,3 @@ _____
 
 
 
-</style>
-</head>
-  <body>
-    <h1> Página en construcción </h1>
-  </body>
-</html>

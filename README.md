@@ -39,5 +39,53 @@ https://fluks.studio/ Principalmente galería de fotos con buen tamaño. Puede q
 _____
 
 ### ¿Qué existe que puede inspirar la propuesta? 
-![moodboard-frutinez](https://github.com/user-attachments/assets/7413d8dc-88ad-4eb0-bb73-ef363836294f)
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Daniela Brito</title>
+
+    <meta name="description" content="Portafolio de diseño de Daniela Brito">
+    <meta name="keywords" content="Diseño, diseño gráfico, diseño editorial, Dbrito, dbrito, Design, Portafolio de diseño">
+
+    <meta name="author" content="Daniela Brito">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Primary Meta Tags -->
+<title>Portafolio Daniela Brito</title>
+<meta name="title" content="Portafolio Daniela Brito" />
+<meta name="description" content="Portafolio de diseño de Daniela Brito" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://dbrito.cl/" />
+<meta property="og:title" content="Portafolio Daniela Brito" />
+<meta property="og:description" content="Portafolio de diseño de Daniela Brito" />
+<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="http://dbrito.cl/" />
+<meta property="twitter:title" content="Portafolio Daniela Brito" />
+<meta property="twitter:description" content="Portafolio de diseño de Daniela Brito" />
+<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: Inter, sans-serif;
+    text-align: center;
+} 
+   
+
+
+</style>
+</head>
+  <body>
+    <h1> Página en construcción </h1>
+  </body>
+</html>

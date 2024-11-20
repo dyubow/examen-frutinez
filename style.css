@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Jacquarda+Bastarda+9&display=swap');
+body {
+	font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.photo {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .masonry-item {
+      position: relative;
+      transform: rotate(calc(var(--angle, 0deg)));
+    }

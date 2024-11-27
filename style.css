@@ -1,14 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Jacquarda+Bastarda+9&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
 body {
 	font-family: "Bricolage Grotesque", sans-serif;
+	font-style: normal;
+	background: linear-gradient(#F7F5F5,#89C5FF);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-.photo {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .masonry-item {
-      position: relative;
-      transform: rotate(calc(var(--angle, 0deg)));
-    }
+.navbar  {
+	font-size: 12px;
+}
+
+:root
+{
+--bs-danger-border-subtle: 255,57,114; /*cambiado a rojo*/
+ 
+  
+}
+ 
+ .recuadro1 {
+
+
+max-width: 100vw
+height:auto;
+
+
+ 	}
+
+ 	 .img-1 {
+
+margin-top: -5em;
+position: absolute;
+
+
+ 	}
+
+ 	 .img-2 {
+margin-top: -5em;
+z-index: 5;
+position: absolute;
+
+
+ 	}
+
+ .img-3 {
+position: absolute;
+
+}
+
+
+        .animacion-portada{
+        width: 90%;
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    
+        animation: girar 5s infinite;
+        }       
+
+        /* Animación cambio de frames */
+        @keyframes girar{
+            
+            50%{transform: rotate(360deg);
+            }
+        }
+
+        

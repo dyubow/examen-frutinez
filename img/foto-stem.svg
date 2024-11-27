@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 624.63 558.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="24.49" y="28.42" width="575.66" height="501.78" transform="translate(29.91 -30.21) rotate(5.82)"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-2">
+        <image width="3464" height="3456" transform="translate(-134.3 -167.27) scale(.24)" xlink:href="../../../fotitos x portafolio/DSCN9869.JPG"/>
+      </g>
+      <rect class="cls-1" x="24.49" y="28.42" width="575.66" height="501.78" transform="translate(29.91 -30.21) rotate(5.82)"/>
+    </g>
+  </g>
+</svg>

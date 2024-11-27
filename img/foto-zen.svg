@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 635.5 762.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="49.25" y="37.04" width="537" height="688" transform="translate(-53.69 52.12) rotate(-8.65)"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-2">
+        <image width="800" height="800" transform="translate(-57.75 -22.96)" xlink:href="../../../fotitos x portafolio/resized/zen.jpg"/>
+      </g>
+      <rect class="cls-1" x="49.25" y="37.04" width="537" height="688" transform="translate(-53.69 52.12) rotate(-8.65)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 501.45 643.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="29.69" y="21.29" width="442.06" height="600.76" transform="translate(-31.14 26.9) rotate(-5.78)"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-2">
+        <image width="800" height="800" transform="translate(-66.8 46.95) rotate(-5.78) scale(.77)" xlink:href="../../../fotitos x portafolio/resized/persona.jpg"/>
+      </g>
+      <rect class="cls-1" x="29.69" y="21.29" width="442.06" height="600.76" transform="translate(-31.14 26.9) rotate(-5.78)"/>
+    </g>
+  </g>
+</svg>

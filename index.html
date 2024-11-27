@@ -12,9 +12,8 @@
     <meta name="keywords" content="Diseño, diseño gráfico, diseño editorial, Dbrito, dbrito, Design, Portafolio de diseño">
 
     <meta name="author" content="Daniela Brito">
-    <meta name="robots" content="index, follow">
       <link rel="canonical" href="https://dbrito.cl">
-      
+
     <!-- Primary Meta Tags -->
 <title>Portafolio Daniela Brito</title>
 <meta name="title" content="Portafolio Daniela Brito" />
@@ -42,24 +41,25 @@
 
 </head>
   <body>
+    <div id="contenedor">
 <nav class="navbar">
-  <div class="container-fluid border-bottom border-danger">
+  <div class="container-fluid ">
     <div class="container-fluid d-flex justify-content-start align-items-center">
         <a class="navbar-brand" href="#">
    <img src="https://github.com/dyubow/examen-portafolio/blob/main/img/logo.png?raw=true" width="177" height="59">
 </a>
   </div>
 </div>
-  <div class="container-fluid border-bottom border-danger d-flex  justify-content-end  ">
-<div class="d-flex align-items-center">
+  <div id="navbar" class="container-fluid  py-1 border-dark border-top border-bottom d-flex  justify-content-end  ">
+
 <div class="subcategories">
       <ul class="list-unstyled  d-flex justify-content-end">
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">Portafolio </a></li>
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">Sobre mí</a></li>
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">Contacto</a></li>
+        <li class="mx-3"><a href="main.html" class="text-decoration-none link-dark">Portafolio </a></li>
+        <li class="mx-3"><a href="#sobremi" class="text-decoration-none link-dark">Sobre mí</a></li>
+        <li class="mx-3"><a href="#contacto" class="text-decoration-none link-dark">Contacto</a></li>
 
       </ul>
-  </div>
+ 
 </div>
     </div>
   </div>
@@ -68,7 +68,7 @@
  
 <div class="recuadro1 align-items-center">
 
-  <div class="animacion-portada"> <img src="https://github.com/dyubow/examen-portafolio/blob/main/img/estrella.png?raw=true" class="img-fluid"> </div>
+  <div  class="animacion-portada"> <img id="rotacion" src="https://raw.githubusercontent.com/dyubow/examen-portafolio/a13a7a3a04d1196253eac8c6f1d7a1f87f35d328/img/Asset%201.svg" class="img-fluid" alt="estrella rotando"> </div>
  
 <img src="https://github.com/dyubow/examen-portafolio/blob/main/img/logo%20portada.png?raw=true" class="img-fluid img-1">
  <img src="https://github.com/dyubow/examen-portafolio/blob/main/img/brillos.png?raw=true" class="img-fluid img-2">
@@ -76,15 +76,17 @@
 </div>
   
 
-<section class="categorias text-center py-5 border-bottom border-top border-danger-subtle">
+<section class="categorias text-center py-1 border-bottom border-top border-danger-subtle">
+  <div class="scrolling-text">
         <div class="container d-flex justify-content-center">
             <ul class="list-inline">
                 <li class="list-inline-item mx-4">diseño gráfico</li>
                 <li class="list-inline-item mx-4">diseño editorial</li>
-                <li class="list-inline-item mx-4">ddentidades visuales</li>
+                <li class="list-inline-item mx-4">identidades visuales</li>
             </ul>
         </div>
     </section>
+</div>
 
     <section class="trabajos text-center py-5">
         <div class="container">
@@ -98,11 +100,16 @@
                 <div class="col">
                     <div class="box bg-warning"></div>
                 </div>
+                <div class="animated-container">
+    <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/brillos.png" alt="Imagen 1">
+    <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/brillos.png" alt="Imagen 2">
+    <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/brillos.png" alt="Imagen 3">
+</div>
             </div>
            <a href="main.html"> <button class="btn btn-outline-dark mt-4">Ver trabajos</button></a>
         </div>
     </section>
-
+    
 <section class="sobremi text-center py-5 border-bottom border-top border-danger-subtle">
         <div class="container d-flex justify-content-center">
             <ul class="list-inline">
@@ -113,7 +120,7 @@
         </div>
     </section>
 
-<section class="sobre-mi py-5">
+<section id="sobremi" class="sobre-mi py-5">
         <div class="container text-left row">
 
         <div class="col-8">
@@ -135,14 +142,34 @@
         <li class="mx-3"><a href="#" class="text-decoration-none link-dark">dbrito</a></li>
         </div>
 
-
-<div class="sobremi d-flex justify-content-center ">
+<div id="contacto">
+<div class=" d-flex justify-content-center ">
    <ul class="list-unstyled  d-flex justify-content-end">
         <li class="mx-3"><a href="#" class="text-decoration-none link-dark">correo </a></li>
         <li class="mx-3"><a href="#" class="text-decoration-none link-dark">linkedin</a></li>
        
         </div>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+      // Select the image
+const rotatingImage = document.getElementById("rotacion");
+
+// Add a scroll event listener
+window.addEventListener("scroll", () => {
+    // Get the vertical scroll position
+    const scrollPosition = window.scrollY;
+
+    // Calculate rotation angle (adjust divisor for sensitivity)
+    const rotationAngle = scrollPosition / 5;
+
+    // Apply rotation to the image
+    rotatingImage.style.transform = `rotate(${rotationAngle}deg)`;
+});
+
+    </script>
+    </div>
   </body>
 </html>
 

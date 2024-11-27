@@ -1,70 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 body {
-	font-family: "Bricolage Grotesque", sans-serif;
-	font-style: normal;
-	background: linear-gradient(#F7F5F5,#89C5FF);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    font-family: 'Bricolage Grotesque';
+   background: linear-gradient(#F7F5F5, #89C5FF);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
 }
 
-.navbar  {
-	font-size: 12px;
+.navbar {
+    font-size: 12px;
 }
 
-:root
-{
---bs-danger-border-subtle: 255,57,114; /*cambiado a rojo*/
+#navbar {
+    height: 50%;
+}
+
+   
+:root {
+    --bs-danger-border-subtle: 255, 57, 114; /* Cambiado a rojo */
+}
+
+
+
+.img-1 {
+    margin-top: -5em;
+    position: absolute;
+}
+
+.img-2 {
+    margin-top: -5em;
+    z-index: 5;
+    position: absolute;
+}
+
+.img-3 {
+    position: absolute;
+}
+
+
+.categorias {
+    margin-top: 30em;
+}
+
+.recuadro1 {
+    width: 100vh;
+}
+.recuadro2 {
+    max-width: 100vw;
+    height: 100vh;
+    margin-top: 10em;
+}
+
+#rotacion {
+    width: 30vw; /* Adjust as needed */
+    height: auto;
+    margin-left: 8em;
+    transition: transform 0.1s ease-out; /* Optional for smoother updates */
+    z-index: -5;
+    position: absolute;
+}
+
+.scrolling-text {
+  width: 100vh;
+  white-space: nowrap;
+
+  animation: scrolling-text 20s linear infinite;
  
-  
 }
- 
- .recuadro1 {
 
-
-max-width: 100vw
-height:auto;
-
-
- 	}
-
- 	 .img-1 {
-
-margin-top: -5em;
-position: absolute;
-
-
- 	}
-
- 	 .img-2 {
-margin-top: -5em;
-z-index: 5;
-position: absolute;
-
-
- 	}
-
- .img-3 {
-position: absolute;
-
+@keyframes scrolling-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 
-        .animacion-portada{
-        width: 90%;
-        height: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-    
-        animation: girar 5s infinite;
-        }       
+animated-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
 
-        /* Animación cambio de frames */
-        @keyframes girar{
-            
-            50%{transform: rotate(360deg);
-            }
-        }
+.animated-container img {
+    position: absolute;
+    width: 100px;
+    animation: random-move 5s infinite;
+}
 
-        
+@keyframes random-move {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        transform: translate(50px, -20px) rotate(10deg);
+    }
+    50% {
+        transform: translate(-30px, 40px) rotate(-5deg);
+    }
+    75% {
+        transform: translate(20px, -30px) rotate(15deg);
+    }
+}

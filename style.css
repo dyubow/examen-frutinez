@@ -6,12 +6,16 @@ body {
     background-attachment: absolute;
 }
 
+#contenedor {
+    position: relative;
+}
+
 .navbar {
     font-size: 12px;
    
    }
 
-#navbar {
+#barra {
     height: 50%;
 }
 
@@ -23,12 +27,12 @@ body {
 
 
 .img-1 {
-    margin-top: -5em;
+    
     position: absolute;
 }
 
 .img-2 {
-    margin-top: -5em;
+   
     z-index: 5;
     position: absolute;
 }
@@ -42,8 +46,11 @@ body {
     margin-top: 30em;
 }
 
-.recuadro1 {
-    width: 100vh;
+#recuadro1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100vw;
+    height: 80%;
 
 }
 .recuadro2 {
@@ -53,19 +60,20 @@ body {
 }
 
 #rotacion {
-    width: 30vw; /* Adjust as needed */
+    width: 25vw; /* Adjust as needed */
     height: auto;
-    margin-left: 8em;
+    margin-left: 11rem;
     transition: transform 0.1s ease-out; /* Optional for smoother updates */
     z-index: -5;
     position: absolute;
 }
 
 .scrolling-text {
-  width: 100vh;
+  width: 100%;
   white-space: nowrap;
-
-  animation: scrolling-text 20s linear infinite;
+  box-sizing: border-box;
+  overflow: hidden;
+  animation: scrolling-text 15s linear infinite;
  
 }
 
@@ -87,7 +95,8 @@ animated-container {
 
 .animated-container img {
     position: absolute;
-    width: 100px;
+    width: 25vw;
+    height: auto;
     animation: random-move 5s infinite;
 }
 
@@ -106,14 +115,33 @@ animated-container {
     }
 }
 
+.animated1 {
+    margin-left: -20rem;
+}
+
+.animated2{
+    margin-left: -10rem;
+}
+
+
+
+.botontrabajo{
+    width: 100vw;
+    height: auto;
+    margin-top: 28rem;
+
+}
+
 .btn {
     border-radius: 200px;
 }
-
 .card {
     border-radius: 0;
 }
 
+.card:hover{
+    opacity: 70%;
+}
 .breadcrumb {
     margin-left: 2rem;
     font-size: 14px;
@@ -151,4 +179,34 @@ animated-container {
     width: 20vw;
 
     
+}
+
+.trabajos {
+    margin-top: 5rem;
+    height: 35rem;
+    width: 100vw;
+    margin-bottom: 5rem;
+}
+
+.seccionfoto{
+    margin-top: 5vh;
+}
+
+h3{
+    width: 10vw;
+    margin-bottom: 5vh;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+#contacto {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#contacto:hover{
+
+
 }

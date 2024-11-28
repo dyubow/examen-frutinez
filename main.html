@@ -1,151 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
- 
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portafolio Daniela Brito</title>
 
-    <script src="../assets/js/color-modes.js"></script>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Daniela Brito</title>
+        <meta name="description" content="Portafolio de Diseño, ¡Revisa mis trabajos!" />
+        <meta name="keywords" content="Diseño, diseño gráfico, diseño editorial, Dbrito, dbrito, Design, Portafolio de diseño" />
 
-    <meta name="description" content="Portafolio de Diseño, ¡Revisa mis trabajos!">
-    <meta name="keywords" content="Diseño, diseño gráfico, diseño editorial, Dbrito, dbrito, Design, Portafolio de diseño">
+        <meta name="author" content="Daniela Brito" />
+        <link rel="canonical" href="https://dbrito.cl" />
 
-    <meta name="author" content="Daniela Brito">
-    <meta name="robots" content="noindex, nofollow">
-      <link rel="canonical" href="dbrito.cl">
+        <!-- Primary Meta Tags -->
+        <title>Portafolio Daniela Brito</title>
+        <meta name="title" content="Portafolio Daniela Brito" />
+        <meta name="description" content="Portafolio de diseño de Daniela Brito" />
 
+        <!-- Open Graph / Facebook -->
+         <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://dbrito.cl/" />
+        <meta property="og:title" content="Portafolio Daniela Brito" />
+        <meta property="og:description" content="Portafolio de diseño de Daniela Brito" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/portadaseo.png" />
 
-    <!-- Primary Meta Tags -->
-<title>Portafolio Daniela Brito</title>
-<meta name="title" content="Portafolio Daniela Brito" />
-<meta name="description" content="Portafolio de diseño de Daniela Brito" />
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="http://dbrito.cl/" />
+        <meta property="twitter:title" content="Portafolio Daniela Brito" />
+        <meta property="twitter:description" content="Portafolio de diseño de Daniela Brito" />
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/portadaseo.png" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://dbrito.cl/" />
-<meta property="og:title" content="Portafolio Daniela Brito" />
-<meta property="og:description" content="Portafolio de diseño de Daniela Brito" />
-<meta property="og:image" content="https://github.com/dyubow/examen-portafolio/blob/main/portada-meta-datos.png?raw=true" />
+        <!-- Meta Tags Generated with https://metatags.io -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Bricolage Grotesque" rel="stylesheet" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="http://dbrito.cl/" />
-<meta property="twitter:title" content="Portafolio Daniela Brito" />
-<meta property="twitter:description" content="Portafolio de diseño de Daniela Brito" />
-<meta property="twitter:image" content="https://github.com/dyubow/examen-portafolio/blob/main/portada-meta-datos.png?raw=true" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="contenedor">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="container-fluid d-flex justify-content-start align-items-center">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/logo.png" width="177" height="59" />
+                        </a>
+                    </div>
+                </div>
+                <div id="barra" class="container-fluid py-1 border-dark border-top border-bottom d-flex justify-content-end">
+                    <div class="subcategories">
+                        <ul class="list-unstyled d-flex justify-content-end">
+                            <li class="mx-3"><a href="main.html" class="text-decoration-none link-dark link-opacity-50-hover">Portafolio </a></li>
+                            <li class="mx-3"><a href="index.html" class="text-decoration-none link-dark link-opacity-50-hover">Sobre mí</a></li>
+                            <li class="mx-3"><a href="#contacto" class="text-decoration-none link-dark link-opacity-50-hover">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-<!-- Meta Tags Generated with https://metatags.io -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Bricolage Grotesque' rel='stylesheet'>
+            <header class="selector">
+                <h1 class="display-1 my-3"></h1>
+                <select class="form-select my-3">
+                    <option value="todos">¡Filtra los proyectos!</option>
+                    <option value="Producto">Portafolio de Diseño de Productos</option>
+                    <option value="Editorial">Portafolio de Diseño Editorial</option>
+                    <option value="Visual">Portafolio de Diseño Visual</option>
+                </select>
+            </header>
+            <div class="container text-center">
+                <main class="row row-cols-2 row-cols-sm3 row-cols-md-4 row-cols-lg-6 g-2 g-lg-3"></main>
+                <div class="dbrito py-3 d-flex justify-content-center border-bottom border-top border-danger-subtle">
+                    <div class="scrolling-text">
+                        <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/8c5324c14aebbb3a87d8098915878badce1de689/img/banda%20nombres.svg" />
+                    </div>
+                </div>
+                <div id="contacto" class="container row">
+                    <div class="col-8">
+                        <div class="d-flex justify-content-center">
+                            <ul class="list-unstyled d-flex justify-content-end">
+                                <li class="mx-3"><a href="mailto:daniela.brito@uc.cl" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">correo </a></li>
+                                <li class="mx-3"><a href="https://www.linkedin.com/in/daniela-brito-6a59182b5/" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-      <link rel="stylesheet" href="style.css">
+                    <div class="col-4">
+                        <span class="mb-2 mb-md-0 text-body-secondary">&copy; Daniela Brito</span>
+                    </div>
+                </div>
 
-</head>
-  <body>
-<nav class="navbar">
-  <div class="container-fluid border-bottom border-danger">
-    <div class="container-fluid d-flex justify-content-start align-items-center">
-        <a class="navbar-brand" href="#">
-   <img src="https://github.com/dyubow/examen-portafolio/blob/main/img/logo.png?raw=true" width="177" height="59">
-</a>
-  </div>
-</div>
-  <div class="container-fluid border-bottom border-danger d-flex  justify-content-end  ">
-<div class="d-flex align-items-center">
-<div class="subcategories">
-      <ul class="list-unstyled  d-flex justify-content-end">
-        <li class="mx-3"><a href="main.html" class="text-decoration-none link-dark">Portafolio </a></li>
-        <li class="mx-3"><a href="index.html" class="text-decoration-none link-dark">Sobre mí</a></li>
-        <li class="mx-3"><a href="#contacto" class="text-decoration-none link-dark">Contacto</a></li>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            </div>
 
-      </ul>
-  </div>
-</div>
-    </div>
-  </div>
-</nav>
+            <script>
+                //unas variables que no varían, que son constantes:
 
-<header class="selector">
-            <h1 class="display-1 my-3"></h1>
-            <select class="form-select my-3">
-                <option value="todos">Portafolio de Diseño</option>
-                <option value="Producto">Portafolio de Diseño de Productos</option>
-                <option value="Editorial">Portafolio de Diseño Editorial</option>
-                <option value="Visual">Portafolio de Diseño Visual</option>
-            </select>
+                const principal = document.querySelector("main");
 
-          
+                const seleccion = document.querySelector("select");
 
+                //acá voy por el JSON
 
-        </header>
-        <div class="container text-center">
-            <main class="row row-cols-2 row-cols-sm3 row-cols-md-4 row-cols-lg-6 g-2 g-lg-3"></main>
-<div class="dbrito d-flex justify-content-center border-bottom border-top border-danger-subtle">
-   <ul class="list-unstyled  d-flex justify-content-end">
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">dbrito</a></li>
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">dbrito</a></li>
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">dbrito</a></li>
-        </div>
+                async function astros() {
+                    const consulta = await fetch("https://raw.githubusercontent.com/dyubow/dno-web-12/refs/heads/main/datos.json");
+                    const data = await consulta.json();
+                    console.log(data);
 
-<div id="contacto">
-<div class=" d-flex justify-content-center ">
-   <ul class="list-unstyled  d-flex justify-content-end">
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">correo </a></li>
-        <li class="mx-3"><a href="#" class="text-decoration-none link-dark">linkedin</a></li>
-       
-        </div>
-        </div>
-           
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        </div>
-
-        <script>
-            //unas variables que no varían, que son constantes:
-          
-
-         
-
-            const principal = document.querySelector("main");
-
-            const seleccion = document.querySelector("select");
-
-            //acá voy por el JSON
-
-            async function astros() {
-                const consulta = await fetch("https://raw.githubusercontent.com/dyubow/dno-web-12/refs/heads/main/datos.json");
-                const data = await consulta.json();
-                console.log(data);
-
-                data.forEach((d, i) => (principal.innerHTML += `
+                    data.forEach(
+                        (d, i) =>
+                            (principal.innerHTML += `
                     <div class="${d.signo} col mb-3">
                     <div class="card bg-light "> 
-                    <img src="${d.foto}" class="card-img-top default-img" alt="${d.fecha}"  >
+                   <a href="single.html?data=${i}"><img src="${d.foto}" class="card-img-top default-img" alt="${d.fecha}"  ></a>
                    
             </div>
             </div>         
-                   `));
+                   `)
+                    );
 
-                seleccionables()
-            }
+                    seleccionables();
+                }
 
-            astros().catch((error) => console.error(error));
+                astros().catch((error) => console.error(error));
 
-            //lo que sigue es una función que ejecuto dentro de astros()
+                //lo que sigue es una función que ejecuto dentro de astros()
 
-            var valor;
-            function seleccionables() {
-                seleccion.addEventListener("change", (e) => {
-                    document.querySelectorAll(".col").forEach((t) => t.classList.add("d-none"));
-                    valor = e.target.value;
-                    if (valor !== "todos") {
-                        document.querySelectorAll(`.${valor}`).forEach((t) => t.classList.remove("d-none"));
-                    } else {
-                        document.querySelectorAll("div").forEach((t) => t.classList.remove("d-none"));
-                    }
-                });
-            }
-        </script>
+                var valor;
+                function seleccionables() {
+                    seleccion.addEventListener("change", (e) => {
+                        document.querySelectorAll(".col").forEach((t) => t.classList.add("d-none"));
+                        valor = e.target.value;
+                        if (valor !== "todos") {
+                            document.querySelectorAll(`.${valor}`).forEach((t) => t.classList.remove("d-none"));
+                        } else {
+                            document.querySelectorAll("div").forEach((t) => t.classList.remove("d-none"));
+                        }
+                    });
+                }
+            </script>
+        </div>
     </body>
 </html>

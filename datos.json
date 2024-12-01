@@ -1,0 +1,88 @@
+[
+    
+    
+    {
+        "nombre": "Cuentos Zen",
+        "fecha": "2023",
+        "signo": "Editorial",
+        "fotos":  ["zen-1.jpg", "zen-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "A partir de una colección de cuentos Zen, se realizó un trabajo editorial en duplas, desde la investigación y conceptualización de la propia cultura Zen. Se trabajó con los conceptos de la emocionalidad y la trascendencia, reflejandolos en cartas dentro del libro.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/zen-0.jpg"
+    },
+    {
+        "nombre": "Frutinez",
+        "fecha": "2023",
+        "signo": "Visual",
+        "fotos":  ["fruti-1.jpg", "fruti-2.jpg"],
+        "github": "https://github.com/dyubow",
+        "desc" : "Tipografía estilo display, fue realizada para tiendas de accesorios con públicos jovénes y alternativos, llamando su atención.",
+        "foto" : "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/fruti-0.jpg"
+    },
+    {
+        "nombre": "Colección STEM",
+        "fecha": "2023",
+        "signo": "Editorial",
+        "fotos": ["stem-1.jpg", "stem-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "En colaboración con Mujeres Bacanas y el Ministerio se desarrolló una publicación que busca motivar a niñas a conocer y ser parte del mundo STEM. Se utilizan los conceptos Agenda y personalizar.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/stem-0.jpg"
+    },
+    
+    {
+        "nombre": "Futura Licenciada",
+        "fecha": "2024",
+        "signo": "Visual",
+        "fotos":  ["futura-0.jpg", "futura-1.jpg"],
+        "github": "https://github.com/dyubow",
+        "desc":"Este afiche se realizó a partir del corto Futura Licenciada, distribuido por PRISMA. El afiche debía transmitir la desesperación de una jovén arquitecta.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/futura-0.jpg"
+    },
+    {
+        "nombre": "Hackear la Ciudad",
+        "fecha": "2024",
+        "signo": "Editorial",
+        "fotos":  ["hack-1.jpg", "hack-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "En base al estudio de iluminación artivista, Delight Lab, se toman sus obras realizadas dentro del sector de la Torre Telefónica, analizando su significado en la democratización de espacios y el rol en el estallido social.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/hack-0.jpg"
+    },
+    {
+        "nombre": "Persona",
+        "fecha": "2024",
+        "signo": "Visual",
+        "fotos":  ["persona-1.jpg", "persona-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "Afiche realizado a partir de la canción Persona de el grupo BTS. Se toma el concepto de persona y sombra de la psicología como analogía.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/persona-0.jpg"
+    },
+    {
+        "nombre": "Dulzura natural",
+        "fecha": "2023",
+        "signo": "Producto",
+        "fotos":  ["dulzura-1.jpg", "dulzura-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "Línea de productos realizada a partir de Vitamina B12 en polvo de Dulzura Natural.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/dulzura-0.jpg"
+    },
+    {
+        "nombre": "Logos Metal",
+        "fecha": "2024",
+        "signo": "Visual",
+        "fotos": ["logos-1.jpg", "logos-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "Logos de artistas famosos, realizados a partir del estilo Heavy Metal. Se toman los elementos creando un estilo reconocible.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/logos-0.jpg"
+    },
+
+    {
+        "nombre": "Nuevas voces de Chile",
+        "fecha": "2024",
+        "signo": "Visual",
+        "fotos": ["puede-1.jpg", "puede-2.jpg"],
+        "github": "https://github.com/dyubow",
+         "desc": "Afiche realizado en impresión con xilografia, a partir de un poema de Daniela Catrileo.",
+        "foto": "https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/puede-0.jpg"
+    }
+    
+]

@@ -30,7 +30,7 @@
         <meta property="twitter:title" content="Portafolio Daniela Brito" />
         <meta property="twitter:description" content="Portafolio de diseño de Daniela Brito" />
         <meta property="twitter:image" content="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/portadaseo.png" />
-        <link rel="shortcut icon" href="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/faviconn.png">
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/faviconn.png" />
         <!-- Meta Tags Generated with https://metatags.io -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Bricolage Grotesque" rel="stylesheet" />
@@ -43,7 +43,7 @@
                 <div class="container-fluid">
                     <div class="container-fluid d-flex justify-content-start align-items-center">
                         <a class="navbar-brand" href="index.html">
-                            <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/logo.png" width="177" height="59" />
+                            <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/img/logo.png" width="177" height="59" alt="logo dbrito" style="margin-left: -1rem;" />
                         </a>
                     </div>
                 </div>
@@ -65,55 +65,57 @@
                 </ol>
             </nav>
 
-            <div class="container">
+            <div class="containersingle">
                 <div class="row">
                     <main class="col-lg-8 me-auto"></main>
+                </div>
+                 </div>
 
-                    <div class="dbrito py-3 d-flex justify-content-center border-bottom border-top border-danger-subtle">
-                        <div class="scrolling-text">
-                            <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/8c5324c14aebbb3a87d8098915878badce1de689/img/banda%20nombres.svg" />
-                        </div>
+                <div class="dbrito py-3 d-flex justify-content-center border-bottom border-top border-danger-subtle">
+                    <div class="scrolling-text">
+                        <img src="https://raw.githubusercontent.com/dyubow/examen-portafolio/8c5324c14aebbb3a87d8098915878badce1de689/img/banda%20nombres.svg" />
                     </div>
-                    <div id="contacto" class="container row">
-                        <div class="col-8">
-                            <div class="d-flex justify-content-center">
-                                <ul class="list-unstyled d-flex justify-content-end">
-                                    <li class="mx-3"><a href="mailto:daniela.brito@uc.cl" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">correo </a></li>
-                                    <li class="mx-3"><a href="https://www.linkedin.com/in/daniela-brito-6a59182b5/" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">linkedin</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-4">
-                            <span class="mb-2 mb-md-0 text-body-secondary">&copy; Daniela Brito</span>
-                        </div>
+                </div>
+           
+            <div id="contacto" class="container row">
+                <div class="col-9">
+                    <div class="d-flex justify-content-center">
+                        <ul class="list-unstyled d-flex justify-content-end">
+                            <li class="mx-3"><a href="mailto:daniela.brito@uc.cl" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">correo </a></li>
+                            <li class="mx-3"><a href="https://www.linkedin.com/in/daniela-brito-6a59182b5/" target="»_blank" class="text-decoration-none link-dark link-opacity-50-hover">linkedin</a></li>
+                        </ul>
                     </div>
-
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
                 </div>
 
-                <script>
-                    //vamos a buscar un dato
+                <div class="col-3">
+                    <span class="mb-3 mb-md-0 text-body-secondary">&copy; Daniela Brito</span>
+                </div>
 
-                    var x = new URLSearchParams(window.location.search).get("data");
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            </div>
 
-                    const titulo = document.querySelector("#otracosa");
+            <script>
+                //vamos a buscar un dato
 
-                    const principal = document.querySelector("main");
+                var x = new URLSearchParams(window.location.search).get("data");
 
-                    const seleccion = document.querySelector("select");
+                const titulo = document.querySelector("#otracosa");
 
-                    //acá voy por el JSON
+                const principal = document.querySelector("main");
 
-                    async function astros() {
-                        const consulta = await fetch("https://raw.githubusercontent.com/dyubow/dno-web-12/refs/heads/main/datos.json");
-                        const data = await consulta.json();
-                        console.log(data);
+                const seleccion = document.querySelector("select");
 
-                        if (x) {
-                            titulo.innerHTML = `${data[x].nombre}`;
+                //acá voy por el JSON
 
-                            principal.innerHTML += `<h2 class"mt-4">${data[x].nombre}</h2>
+                async function astros() {
+                    const consulta = await fetch("https://raw.githubusercontent.com/dyubow/examen-portafolio/refs/heads/main/datos.json");
+                    const data = await consulta.json();
+                    console.log(data);
+
+                    if (x) {
+                        titulo.innerHTML = `${data[x].nombre}`;
+
+                        principal.innerHTML += `<h2 class"mt-4">${data[x].nombre}</h2>
                             <p>${data[x].fecha}</p>
                             <p>${data[x].desc}</p>
                             
@@ -139,13 +141,12 @@
 </div>
 
                             `;
-                        } else {
-                            window.location.href = "index.html";
-                        }
+                    } else {
+                        window.location.href = "index.html";
                     }
-                    astros().catch((error) => console.error(error));
-                </script>
-            </div>
+                }
+                astros().catch((error) => console.error(error));
+            </script>
         </div>
     </body>
 </html>

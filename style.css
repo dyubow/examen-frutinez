@@ -6,9 +6,6 @@ body {
     background-attachment: absolute;
 }
 
-#contenedor {
-    position: relative;
-}
 
 .navbar {
     font-size: 12px;
@@ -17,6 +14,7 @@ body {
 
 #barra {
     height: 50%;
+
 }
 
    
@@ -24,6 +22,10 @@ body {
     --bs-danger-border-subtle: 255, 57, 114; /* Cambiado a rojo */
 }
 
+.subcategories{
+    margin-top: 10px;
+    margin-right: 2rem;
+}
 
 
 .img-1 {
@@ -136,21 +138,23 @@ animated-container {
     border-radius: 200px;
 }
 .card {
-    border-radius: 0;
+  
+     border-radius: 0 !important;
 }
 
 .card:hover{
-    opacity: 70%;
+    opacity: 50%;
 }
 .breadcrumb {
-    margin-left: 2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
     font-size: 14px;
 }
 
 .form-select {
     background-color: #F7F5F5;
     border-radius: 200px;
-    margin-left: 2rem;
+ 
     width: 40vw;
 }
 
@@ -161,6 +165,7 @@ animated-container {
 .card-img-top{
     object-fit: cover;
     size: 100%;
+     border-radius: 0 !important;
 }
 
 .fotodani {
@@ -211,3 +216,17 @@ p{
      margin-bottom: 3rem; 
 }
 
+.containermain
+{
+margin-top: -2rem;
+padding: 3rem;
+}
+
+.selector{
+    margin-left: 3rem;
+}
+
+.containersingle{
+    padding: 3rem;
+    margin-top: -2rem;
+}
